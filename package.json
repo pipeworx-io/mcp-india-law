@@ -1,0 +1,33 @@
+{
+  "name": "@pipeworx/mcp-india-law",
+  "version": "0.1.0",
+  "description": "India Law MCP -- Indian central and state statutes (section text) and Supreme Court of India judgments.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "mcp-india-law": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "india-law"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-india-law.git"
+  },
+  "mcpName": "io.github.pipeworx-io/india-law",
+  "pipeworx": {
+    "mode": "gateway",
+    "slug": "india-law",
+    "gatewaySlug": "india-law",
+    "sourceHash": "v1-8cab4b5b2e704f86198efca954ae7f114f1d4ef64c8ef68f350202b8ac77228a",
+    "sourceCommit": "a1b000c36de8595c8ac929f654457dbec8548978"
+  }
+}
